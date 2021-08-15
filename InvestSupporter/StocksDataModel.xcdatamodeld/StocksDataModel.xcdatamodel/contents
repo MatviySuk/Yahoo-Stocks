@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19141.11" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CChartData" representedClassName="CChartData" syncable="YES">
+        <attribute name="close" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[Double]"/>
+        <attribute name="high" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[Double]"/>
+        <attribute name="low" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[Double]"/>
+        <attribute name="open" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[Double]"/>
+        <attribute name="volume" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[Double]"/>
+    </entity>
+    <entity name="CStock" representedClassName="CStock" syncable="YES">
+        <attribute name="ask" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="bid" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Transformable" valueTransformerName="CChartDataValueTransformer" customClassName="[CChartData]"/>
+        <attribute name="fiftyTwoWeekHigh" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fiftyTwoWeekLow" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longName" optional="YES" attributeType="String"/>
+        <attribute name="marketCap" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="choosenStocks" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="[String]"/>
+        <attribute name="savedStocks" optional="YES" attributeType="Transformable" valueTransformerName="CStockValueTransformer" customClassName="[CStock]"/>
+    </entity>
+    <elements>
+        <element name="CStock" positionX="-66.55377197265625" positionY="-207.839599609375" width="155.05126953125" height="163"/>
+        <element name="User" positionX="-313.0678100585938" positionY="-95.78948974609375" width="128" height="73"/>
+        <element name="CChartData" positionX="-54" positionY="63" width="128" height="118"/>
+    </elements>
+</model>
