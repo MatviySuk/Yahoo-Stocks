@@ -9,6 +9,6 @@ As pods I used Alamofire and SwiftyJSON. Moreover, to implement charts in my app
 
 Data are getting with an url request from Yahoo's servers and saved in Core Data. Furthermore, I chose SwiftUI to built up views.
 
+https://user-images.githubusercontent.com/72186046/129493563-4fa0a8cc-bc07-46ab-ab9e-3ea4c3d734cc.MP4
 
-https://user-images.githubusercontent.com/72186046/129493504-18f58eb4-a2e9-4cfb-8395-466e5d6628ed.MP4
 
