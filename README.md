@@ -1,7 +1,7 @@
 
 
 
-# Stock
+# InvestSupport
 An idea was to create a pet project for iOS which will help you with your investment-related deals. 
 
 In a purpose to create this application I had to learn a lot of new technologies starting with Cocoa Pods and ending ending with Core Data and Unit tests.
